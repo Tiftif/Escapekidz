@@ -1,0 +1,290 @@
+@media (min-width: 700px) {
+  .hamburger {
+    display: none;
+  }
+
+  nav {
+    background: transparent;
+    float: right;
+    border: 0 !important;
+    max-height: none;
+  }
+
+  nav ul, nav li, nav li a {
+    display: inline-block;
+  }
+
+  nav a {
+    display: inline-block;
+    padding: 15px 1em;
+  }
+
+  .separateur {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 700px) {
+
+  /*HEADER */
+  nav {
+    width: 100%;
+  }
+
+  .container-header {
+    width: 100%;
+  }
+
+  .home-header {
+    height: 240px;
+    background-size: cover;
+    background-image: url(../img/header1.png);
+  }
+
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .separateur {
+    display: none;
+  }
+
+  .home-header {
+    background-attachment: inherit;
+    height: 240px;
+    background-size: auto;
+    background-image: url(../img/header1.png);
+  }
+
+  #btn-header {
+    padding: 10px 10px;
+    font-size: 12px;
+    bottom: 10px;
+  }
+
+  .fleche-direction {
+    display: none;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .concept {
+    background-image: none;
+    margin: 50px 10px;
+    height: 230px;
+  }
+
+  .concept h2 {
+    font-size: 30px;
+  }
+
+  .concept p {
+    font-size: 15px;
+    margin: 0px;
+  }
+
+  .strong-p {
+    font-size: 18px;
+  }
+
+  .iconeapp {
+    margin: 5px 0px 0px 0px;
+    */
+  }
+
+  .iconeapp img {
+    width: 100px;
+  }
+
+  .product-row {
+    flex-direction: column;
+    box-shadow: none;
+    padding: 0px;
+    height: none;
+  }
+
+  .product .product-title {
+    flex-direction: column;
+  }
+
+  .product.product:nth-child(1) header {
+    margin: 0px 45px;
+    flex: 1;
+  }
+
+  .product.product:nth-child(2) header {
+    margin: 0px 45px;
+    flex: 1;
+  }
+
+  .product.product:nth-child(3) header {
+    margin: 0px 45px;
+    flex: 1;
+  }
+
+  .product-btn {
+    font-size: 16px;
+    padding: 5px 10px;
+    bottom: 0px;
+    margin-top: 10px;
+  }
+
+  .product:nth-child(1) .product-btn {
+    margin-top: 10px;
+  }
+
+  .price {
+    margin-right: 30px;
+  }
+
+  .product-body .description {
+    margin-right: 30px;
+    font-size: 15px;
+  }
+
+  .product-body {
+    margin-bottom: 30px;
+  }
+
+  .product-body h2 {
+    margin: 30px 0px;
+  }
+
+  /*AVANTAGE */
+  .avantage-row .avantage {
+    margin: 0px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .avantage-row {
+    margin: 0px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .avantage img {
+    margin: 0px 147px;
+    height: 70px;
+  }
+
+  .avantage h2 {
+    font-size: 21px;
+    text-align: center;
+    padding: 0px;
+    margin: 0 15px;
+  }
+
+  .avantage h3 {
+    font-size: 15px;
+    padding: 0px;
+    margin: 15px;
+  }
+
+  /*BANDEAU */
+  .bandeau {
+    margin: 50px 0;
+  }
+
+  .titre-flex {
+    margin: 0px;
+    margin: 12px 5px;
+  }
+
+  .bandeau h2 {
+    width: 210%;
+    font-size: 14px;
+    padding: 10px 0;
+    margin-top: 0px;
+  }
+
+  .titre-flex h3 {
+    font-size: 31px;
+  }
+
+  .btn-bandeau {
+    padding: 9px 35px;
+    width: 112px;
+    margin-top: 274px;
+    margin-right: 10px;
+    font-size: 17px;
+  }
+
+  /*Media*/
+  .social-media {
+    margin: 40px 0;
+  }
+
+  .social-media ul li a {
+    padding: 5px;
+    background-color: #fff;
+    border: none;
+    color: #000;
+  }
+
+  .social-media ul li a:hover {
+    color: transparent;
+  }
+
+  .social-media ul {
+    margin: 20px 50px;
+    padding: 0px;
+    width: 80%;
+  }
+
+  .social-media h2 {
+    font-size: 17px;
+    position: relative;
+    left: 0px;
+  }
+
+  /*FOOTER */
+  footer {
+    width: 100%;
+    height: 1200px;
+  }
+
+  .loginbox {
+    margin-top: 20px;
+    border-radius: 0px;
+    width: 100%;
+  }
+
+  .loginbox input {
+    width: 100%;
+  }
+
+  #message {
+    width: 100%;
+  }
+
+  .ctn-footer-top {
+    width: 100%;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .ctn-footer-top ul li a {
+    font-size: 15px;
+  }
+
+  .ctn-footer-top ul li {
+    padding: 0px;
+  }
+
+  .description-footer p {
+    font-size: 15px;
+  }
+
+  .ctn-bottom-footer {
+    height: 100px;
+  }
+
+  #ancre {
+    font-size: 37px;
+    right: 0;
+    bottom: 48px;
+  }
